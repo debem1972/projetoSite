@@ -1,18 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-   background-color:rgb(182, 145, 217) ;
-
+body {
+    background-color: rgb(182, 145, 217);
 }
 
-main{
-    background-color:#fff;
-    margin: auto;
-    width: 500px;
+
+
+main {
+    /*display: flex;
+    flex-direction:column;*/
+    background-color: #fff;
+    margin: 50px auto;
+    width: 80vw;
     padding: 10px;
-    box-shadow:3px 3px 5px rgba(0,0,0, 0.473);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+main h1,
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px 3px grey
+}
+
+
+article {
+    margin-top: 100px;
+}
+
+article p {
+    margin-top: 30px;
 }
