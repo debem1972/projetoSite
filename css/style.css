@@ -32,6 +32,10 @@ h2 {
     filter: drop-shadow(10px 30px 20px grey);     
 }
 
+.lado{
+    float: right;
+}
+
 
 article {
     margin-top: 100px;
