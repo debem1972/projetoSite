@@ -20,10 +20,16 @@ main {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
 
-main h1,
+main,
 h2 {
     text-align: center;
     text-shadow: 2px 2px 3px grey
+}
+
+#logo{
+    border-radius: 50%;
+    border: 10px solid grey;
+    filter: drop-shadow(10px 30px 20px grey);     
 }
 
 
